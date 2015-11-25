@@ -1805,3 +1805,12 @@ Completed 200 OK in 2214ms (Views: 2213.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/application.self-360d6c5a0f8f75fe0fba3951be1ce1f4817b41304fc981dcb30dac5628777da9.css?body=1" for ::1 at 2015-11-25 08:34:35 -0800
+
+
+Started GET "/" for ::1 at 2015-11-25 08:40:55 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3813ms (Views: 3812.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fd234c8c78e4d32a1176cd22480985b6cae7b31322c08fd7af97aa6931f97bf4.css?body=1" for ::1 at 2015-11-25 08:40:59 -0800
