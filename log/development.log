@@ -1,0 +1,996 @@
+
+
+Started GET "/" for ::1 at 2015-11-23 15:55:56 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 93ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for ::1 at 2015-11-23 15:59:00 -0800
+
+ActionController::RoutingError (No route matches [GET] "/session/new"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.6ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.8ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (60.8ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (142.2ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 15:59:10 -0800
+
+ActionController::RoutingError (No route matches [GET] "/sessions/new"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.9ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (58.2ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (10.7ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (137.9ms)
+
+
+Started GET "/" for ::1 at 2015-11-23 16:00:03 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:00:08 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3357ms (Views: 3356.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-23 16:00:11 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-23 16:00:11 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-23 16:00:11 -0800
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-23 16:00:11 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-23 16:00:11 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:00:57 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:01:40 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 181ms (Views: 179.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for ::1 at 2015-11-23 16:01:40 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:01:54 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:16:56 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 114ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:25:31 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'bootstrap-sass' with type 'application/javascript'):
+    3: <head>
+    4:   <title>PalantirPage</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:16
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__815988831008171449_70198627959660'
+
+
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.6ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (62.9ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (133.4ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:29:52 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 381ms (Views: 380.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-23 16:29:52 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:31:40 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4235ms (Views: 4234.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-25b255cf185243af68404f346a175f9c169b7750e329d1a630b8a1f30812adc3.css?body=1" for ::1 at 2015-11-23 16:31:44 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:41:09 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:48:48 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:49:39 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 78ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 16:55:25 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 17:05:49 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 17:06:33 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 105ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 17:10:37 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 17:16:40 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 321ms (Views: 317.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 17:17:28 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 82ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 17:30:52 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 72ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-23 20:16:18 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 70ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for ::1 at 2015-11-23 20:16:24 -0800
+
+ActionController::RoutingError (No route matches [GET] "/session/new"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.8ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (203.9ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (67.2ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (144.9ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 20:16:29 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 975ms (Views: 974.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 20:30:03 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3122ms (Views: 3097.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-003a6cf36ed6aeb94b116881e6f4d361720ff620dc4d76896599b01d5df1eda5.css?body=1" for ::1 at 2015-11-23 20:30:06 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 20:36:15 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3457ms (Views: 3455.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dbd60ea8671e03e3ddf9a499f060b3f7380149abd50f897636e1b0620cb1851e.css?body=1" for ::1 at 2015-11-23 20:36:19 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 20:48:06 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3723ms (Views: 3721.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bb37aa7c3a31c36220c4ee474b15a3527a68074bc9c1b1df69a8612f5e58f754.css?body=1" for ::1 at 2015-11-23 20:48:09 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 21:03:27 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4130ms (Views: 4125.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7b69c2f1c5931c235030005778935a446f01d9fd51424e46945b8909c750aae1.css?body=1" for ::1 at 2015-11-23 21:03:31 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 21:04:05 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3392ms (Views: 3391.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-913713ac936035a0f199073a7cbc31f9ff1cc869b711da0a91c2621b30eaccf7.css?body=1" for ::1 at 2015-11-23 21:04:08 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 21:12:45 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 295ms (Views: 291.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/images/palantir_logo.png" for ::1 at 2015-11-23 21:12:45 -0800
+
+ActionController::RoutingError (No route matches [GET] "/sessions/images/palantir_logo.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (114.9ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (82.2ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (197.8ms)
+
+
+Started GET "/sessions/public/images/palantir_logo.png" for ::1 at 2015-11-23 21:13:41 -0800
+
+ActionController::RoutingError (No route matches [GET] "/sessions/public/images/palantir_logo.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ScottDuane/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.7ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (59.6ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ScottDuane/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (138.1ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 21:14:04 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 320ms (Views: 318.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 22:11:47 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (97.8ms)
+Completed 200 OK in 4310ms (Views: 4205.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2cc400c4f8a7ac6b76f8cbaf4c70e85d8d1fe6051dcb7a3f3e378664a06791bf.css?body=1" for ::1 at 2015-11-23 22:11:52 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 22:31:13 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3930ms (Views: 3925.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6db01871b7e9ff3315d04770c2b4112fa11da19f489b297fcdca36d530e2f03d.css?body=1" for ::1 at 2015-11-23 22:31:18 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-23 23:02:13 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4534ms (Views: 4529.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b85431df88d121ebef3c50df497ab3a9f22bc51ed533df09654b2205602965c.css?body=1" for ::1 at 2015-11-23 23:02:18 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 13:59:24 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (584.5ms)
+Completed 200 OK in 12967ms (Views: 12825.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5920a3b7e0f1fa63c105fc8f6ae9e21ef393d710993fc430d479d048edd6262f.css?body=1" for ::1 at 2015-11-24 13:59:39 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 14:01:41 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (423.2ms)
+Completed 200 OK in 6504ms (Views: 6503.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5eca43391db9a9dc5fdbcf9734dce3c321306b846419e9b7543de63fc5d19eef.css?body=1" for ::1 at 2015-11-24 14:01:48 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 14:04:29 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7858ms (Views: 7849.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f473d18209d0b3f4ef113f4be9763e9b3a2f5c5d076151d46decf62710ce7ae3.css?body=1" for ::1 at 2015-11-24 14:04:37 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 15:00:56 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7298ms (Views: 7274.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5a9cba6e8bdd38f3296775724e9c765d587fb207d09a354f8d4f2605f938bfa2.css?body=1" for ::1 at 2015-11-24 15:01:04 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 15:04:51 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (128.8ms)
+Completed 200 OK in 7986ms (Views: 7975.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-16c2450ae168c0f3dd39c67b0571828b2e847586b2a15f61e854f54336a878a1.css?body=1" for ::1 at 2015-11-24 15:04:59 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 16:14:56 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (380.3ms)
+Completed 200 OK in 22857ms (Views: 22608.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-09be8a90995d5840372be981a14f521e831778f2206b36fc47977e500bc95c09.css?body=1" for ::1 at 2015-11-24 16:15:22 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 16:24:34 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9478ms (Views: 9470.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8ee7c78f8c0a44b91273149ba4cee40a8bfe1c5f69acb84d58191cf54d608b1c.css?body=1" for ::1 at 2015-11-24 16:24:43 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 16:25:24 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 427ms (Views: 421.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 16:25:55 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 310ms (Views: 309.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 16:41:02 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23443ms (Views: 23281.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-53b59f4faaaa502e4122716820a1879a7950a5b3d300139d63e931ccdd04dc38.css?body=1" for ::1 at 2015-11-24 16:41:30 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 16:48:03 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8762ms (Views: 8753.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bbcad505a26123cc98f7b8450fcab2f6127cba55683af143f77b3286f8d81c74.css?body=1" for ::1 at 2015-11-24 16:48:12 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 16:55:38 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (114.5ms)
+Completed 200 OK in 6873ms (Views: 6862.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-95f969f914e13bc41326815e6bf1a8ddeba3bec9493899647bb74735e61d7ccc.css?body=1" for ::1 at 2015-11-24 16:55:45 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 16:57:56 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 7435ms (Views: 7426.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f6a881f79ef62b0ec68b26b8eeaafc08621572f2a651d5640f85a97eb6241354.css?body=1" for ::1 at 2015-11-24 16:58:03 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 16:58:47 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7309ms (Views: 7295.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b63cbb24b2e97c4b0d0c1f79960b4655e8bf81d5cdfa65adecfad7e750ad70a1.css?body=1" for ::1 at 2015-11-24 16:58:54 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:03:33 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 28477ms (Views: 28467.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a5a0623e62fe79e5b91dd004f2acf24851ea0aab97c42978bee227b1fa4601c3.css?body=1" for ::1 at 2015-11-24 17:04:02 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:04:36 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 449ms (Views: 443.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:05:32 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7568ms (Views: 7566.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2b935aaed4799db0bb2c8daddc16562d54751a95c459da06dfd081b7d7603dc4.css?body=1" for ::1 at 2015-11-24 17:05:39 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:07:29 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 851ms (Views: 840.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:08:01 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 406ms (Views: 404.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:28:22 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 7347ms (Views: 7336.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f4c31745abb6b89a1f68ccc8ada0d9c2dbef9d00e900437955a64cd215906a23.css?body=1" for ::1 at 2015-11-24 17:28:30 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:29:03 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 958ms (Views: 948.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:31:13 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 6713ms (Views: 6703.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8571c415164b62028bf13aa79d32afd7fd2bcbd2a65863a5b542cf7104c8e75d.css?body=1" for ::1 at 2015-11-24 17:31:20 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:45:18 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 7557ms (Views: 7544.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d6141e34f8385e752be6b589617e9ca5b9fa240b9223f7428451ac392f5e6c0c.css?body=1" for ::1 at 2015-11-24 17:45:26 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:50:32 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7983ms (Views: 7974.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7b7f0db0bec0fa3a12df66d0edaa142c985d7586f206533332c38e4777975f04.css?body=1" for ::1 at 2015-11-24 17:50:41 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:55:13 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6703ms (Views: 6695.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f0af123de83194c0e6c1f6201a453a445d833abe3c05cbe72a3ffd9ea840f994.css?body=1" for ::1 at 2015-11-24 17:55:20 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:56:03 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 7296ms (Views: 7287.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-99a8d3b2e40a330dea6bd2720b85dd527bb0ddcb01ac2b32789cb8e9035f82d5.css?body=1" for ::1 at 2015-11-24 17:56:10 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:57:19 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7596ms (Views: 7588.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-13a6d4ab7bf785ebe8f4929697eeb3a9863cfb269040087eb3c1f89ffa6e4517.css?body=1" for ::1 at 2015-11-24 17:57:27 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 17:57:43 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 259ms (Views: 258.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:03:55 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 7049ms (Views: 7040.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b31efac8f4f0039b1054692f11cbf6afb2ec5e40dad6178c203de990483a2fbf.css?body=1" for ::1 at 2015-11-24 18:04:03 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:06:20 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8736ms (Views: 8730.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a698c542861407c57321f0d6e12cf1fa37c27066fbf3ba1077595a4b84daeca5.css?body=1" for ::1 at 2015-11-24 18:06:29 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:06:36 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4460ms (Views: 4459.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b466182a4c619ef0c7d719242754f4db5da40badd5d58e3cd344242efc8f475.css?body=1" for ::1 at 2015-11-24 18:06:40 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:10:29 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 7482ms (Views: 7475.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6ce0ae3759a169d4027169f26c376a182a8c98b2e33f8f8de8101120fbac626f.css?body=1" for ::1 at 2015-11-24 18:10:37 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:18:53 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 7296ms (Views: 7254.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5922b73400862f09504bb7782fd31ba24d49aed549910fb9936a6c1d498f3454.css?body=1" for ::1 at 2015-11-24 18:19:01 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:19:40 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6508ms (Views: 6506.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-107d90e9c5f6f7046dfc47ed3a2a51cfa7cca301d095ac495f9b7901e9fe4cb1.css?body=1" for ::1 at 2015-11-24 18:19:47 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:21:40 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6595ms (Views: 6594.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c403cff6cef0a0659620efc02381f7102ca2d50d800dbc0a65cb857e22d23b10.css?body=1" for ::1 at 2015-11-24 18:21:47 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:23:22 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7368ms (Views: 7366.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5039605854f47855b8abe8fb9c5964257819f7bc75c0a078c26633960e347f21.css?body=1" for ::1 at 2015-11-24 18:23:30 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:31:43 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 601ms (Views: 593.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:37:02 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7465ms (Views: 7458.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-28b2acaf749259bd439549a4c1cde471b5ff6418431b5ae6c88cc1ef9d0d9c4a.css?body=1" for ::1 at 2015-11-24 18:37:09 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:39:47 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 6748ms (Views: 6738.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-56f803765ec9becec08c812db23316ecc235fbefe517e2b15daf2c9837cbf3d6.css?body=1" for ::1 at 2015-11-24 18:39:54 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:42:38 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 906ms (Views: 878.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:43:50 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 732ms (Views: 718.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:46:52 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 443ms (Views: 441.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 18:48:20 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7623ms (Views: 7614.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-31c74da9b5b4e51fa0e69e04fd059a97f4ee07f028b551842e992453324e6588.css?body=1" for ::1 at 2015-11-24 18:48:28 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 19:00:06 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 6926ms (Views: 6917.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5b1ce880aafdf2324f6ace7669f217170402a4cfaff89d34401a3f7ec085a723.css?body=1" for ::1 at 2015-11-24 19:00:13 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 19:00:45 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 895ms (Views: 871.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 19:08:52 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (294.7ms)
+Completed 200 OK in 7982ms (Views: 7972.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3821a32a1f80a24df125cc8967ba2d8158de17031e6b6784e2a082d62866d539.css?body=1" for ::1 at 2015-11-24 19:09:00 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 19:11:28 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (168.3ms)
+Completed 200 OK in 748ms (Views: 736.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 19:12:17 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (37.2ms)
+Completed 200 OK in 474ms (Views: 472.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 19:20:01 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (82.6ms)
+Completed 200 OK in 8739ms (Views: 8733.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9b8f6e0a8eb5c1c44912c6c5f76911ffb5248f7aba62696a81c50cbbd6d26928.css?body=1" for ::1 at 2015-11-24 19:20:10 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 19:26:29 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 7865ms (Views: 7859.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3cb6df2714f3301169825abfd2f72eaaecf072089cfe1a0d8e2e2b89717c0dae.css?body=1" for ::1 at 2015-11-24 19:26:37 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 19:31:59 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7499ms (Views: 7487.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-19b0e42d8b40984eb624182a721fb3285ccf02171797dcac6829e1ea00b117ac.css?body=1" for ::1 at 2015-11-24 19:32:07 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 19:41:05 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 7730ms (Views: 7717.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b102fe430d7db22b4a51775a5c6d2101a48267e278556b662ae7887818af6f15.css?body=1" for ::1 at 2015-11-24 19:41:13 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 19:56:18 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 7936ms (Views: 7926.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7fd6a213ec767003e508e2f4be51bce579894973a045205505312f198de1f664.css?body=1" for ::1 at 2015-11-24 19:56:26 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 20:15:57 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 7901ms (Views: 7888.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d275faa32fa3b6b22723a9bad75cd0ab152e80ad4690284ce725434cd69a5734.css?body=1" for ::1 at 2015-11-24 20:16:05 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 20:22:52 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8260ms (Views: 8251.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fa2c7ba97fa1e194bb7f0045a8515ebb18a9f4340de2e84bdf6ed2167ea4ca88.css?body=1" for ::1 at 2015-11-24 20:23:01 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 20:25:20 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 10560ms (Views: 10554.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d2eca9e2b43d529dc6770dceb3d18027f177b647ca5788cc977aacfd4a8d8c22.css?body=1" for ::1 at 2015-11-24 20:25:31 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 20:26:43 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8140ms (Views: 8129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6e0d5ff42fb69933e0cb5db52ef5285d33862ab31988a279bc6e2ba5b21df450.css?body=1" for ::1 at 2015-11-24 20:26:51 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 20:27:33 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6752ms (Views: 6746.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1b1d79db76d516c652a028cede95e3d0ecb64eabe1ddf3c00968bc72b590f065.css?body=1" for ::1 at 2015-11-24 20:27:40 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 20:54:09 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (100.8ms)
+Completed 200 OK in 840ms (Views: 802.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 20:55:46 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 8073ms (Views: 8062.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e154cd154781776652fa8de49befb2e68d84ffceda45c985052d76618ac45459.css?body=1" for ::1 at 2015-11-24 20:55:54 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 21:00:46 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 8436ms (Views: 8427.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9133dcf5bd9a76d8c4f2f9fdf181f913112d62f0d1e26eee3d109edc92bd0dc6.css?body=1" for ::1 at 2015-11-24 21:00:54 -0800
+
+
+Started GET "/sessions/new" for ::1 at 2015-11-24 21:02:22 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7610ms (Views: 7596.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-28179eb691a9bf321e089a8d9ac5d6475855bd08c52e13fc1c5ac47e934eb965.css?body=1" for ::1 at 2015-11-24 21:02:30 -0800
